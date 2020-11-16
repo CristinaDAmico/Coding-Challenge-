@@ -1,0 +1,85 @@
+
+
+body{
+  background-image:url(background.jpg);
+  background-repeat:no-repeat;
+  background-size:90%;
+  background-attachment:fixed;
+  background-position:center top;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.container{
+  width: 800px;
+  height: 540px;
+  margin:auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+header{
+  text-align: center;
+}
+
+header>img{
+  width: 180px;
+  padding: 0px;
+  margin-top: 50px;
+}
+
+header>h1{
+  font-size: 28px;
+  color: #21dc21;
+}
+
+nav{
+  text-align: center;
+  background-color: #21dc21;
+  padding: 8px;
+  width: 650px;
+  margin: auto;
+  margin-top: 5px;
+}
+
+nav>button{
+  font-size: 70%;
+}
+
+main>section{
+  font-size: 11px;
+  padding: 10px;
+  margin-left: 65px;
+}
+
+section>h2{
+  display: inline-block;
+}
+
+section>div{
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.row-one{
+  width: 250px;
+  background-color: #e261c0;
+}
+
+
+.row-two{
+  width: 400px;
+  background-color:#879ddc;
+}
+
+.row-three{
+  width: 100px;
+  background-color:#f9f939;
+}
